@@ -1,7 +1,5 @@
 package com.example.kotlin_study.study
 
-import org.springframework.boot.Banner
-
 open class Dog {
     open var age: Int = 0
 
@@ -11,7 +9,6 @@ open class Dog {
 }
 
 open class Bulldog(override var age: Int = 0): Dog() {
-
 
     override fun bark() {
         super.bark()
@@ -34,7 +31,6 @@ class BackendDeveloper(override var age: Int = 0) : Developer() {
     override fun code(language: String) {
         println("I code with $language")
     }
-
 }
 
 fun main() {
