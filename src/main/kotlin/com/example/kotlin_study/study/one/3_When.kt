@@ -1,4 +1,4 @@
-package com.example.kotlin_study.study
+package com.example.kotlin_study.study.one
 
 fun main() {
     // 자바 코드를 코틀린의 when식으로 변환한 코드
