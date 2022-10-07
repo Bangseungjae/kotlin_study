@@ -11,4 +11,5 @@ fun main() {
     println(client)
 
     client.connect().run { println(this) }
+    println(client.connect())
 }
