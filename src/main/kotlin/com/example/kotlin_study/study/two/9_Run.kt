@@ -1,7 +1,5 @@
 package com.example.kotlin_study.study.two
 
-import java.awt.image.DataBuffer
-
 class DatabaseClient {
     var url: String? = null
     var username: String? = null
